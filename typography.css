@@ -1,0 +1,85 @@
+/* @font-face {
+    font-family: 'apercubold';
+    src: url('./_/typo/apercu_bold-webfont.eot');
+    src: url('./_/typo/apercu_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./_/typo/apercu_bold-webfont.woff') format('woff'),
+         url('./_/typo/apercu_bold-webfont.ttf') format('truetype'),
+         url('./_/typo/apercu_bold-webfont.svg#apercubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'apercuregular';
+    src: url('./_/typo/apercu_regular-webfont.eot');
+    src: url('./_/typo/apercu_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./_/typo/apercu_regular-webfont.woff') format('woff'),
+         url('./_/typo/apercu_regular-webfont.ttf') format('truetype'),
+         url('./_/typo/apercu_regular-webfont.svg#apercuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apercumedium';
+    src: url('./_/typo/apercu_medium-webfont.eot');
+    src: url('./_/typo/apercu_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./_/typo/apercu_medium-webfont.woff') format('woff'),
+         url('./_/typo/apercu_medium-webfont.ttf') format('truetype'),
+         url('./_/typo/apercu_medium-webfont.svg#apercumedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+
+@font-face {
+    font-family: 'aperculight';
+    src: url('./_/typo/apercu_light-webfont.eot');
+    src: url('./_/typo/apercu_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./_/typo/apercu_light-webfont.woff') format('woff'),
+         url('./_/typo/apercu_light-webfont.ttf') format('truetype'),
+         url('./_/typo/apercu_light-webfont.svg#aperculight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ */
+
+
+.ebook-text, .page-sidebar-section, .from-insta, body.post-type-archive-work_post .cat-all a, body.term-demo-reel .cat-demo a, body.term-corporate .cat-corp a, body.term-music-video .cat-music a,
+body.term-fashion .cat-fashion a, body.term-event .cat-event a, strong, b, .page-title, .entry-title, .entry-date, .bloghome-end, .presshome-end, .instahome-end,
+.blog-entry-date-single, .blog-entry-title-single,
+.blog-entry-content-single h2,
+.blog-entry-content-single h3,
+.blog-entry-content-single h4,
+.top-nav li a,
+#floatheader nav .top-nav li a,
+body.page-id-15 .cat-vid a,
+body.page-id-253 .cat-av a,
+.form-text,
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Arimo', 'Arial', sans-serif !important;
+    /* font-weight : normal !important; */
+    -webkit-font-smoothing: antialiased; 
+    font-smoothing: antialiased;
+}
+
+body, #description, #buildbrand p, select, input, textarea, #wpcf7-f90-t2-o1 select, #wpcf7-f90-t2-o1 input, #wpcf7-f90-t2-o1 textarea, #ourexpertise p, #ourexpertise h1, #ourwork h1, #buildbrand h1, #ourwork p, .large-button, .medium-button, #footerbottom, #featuredvideos h2 a, #featuredvideos h1, #featured-text h3 a, .entry-excerpt, .presshome-excerpt, .presstitle, .blogtitle, .newsletter-text,
+.pagedescription-content, .short-description, .black-section-title, .whatseparates, .whatseparates-content, .page-sidebar, .contact-container, .contact-sidebar, .widget_twitter .entry-content, .insta-caption, #pagination-links,
+.lower-description, .address-info, .blog-entry-excerpt, .super-title, .workdescription, .filed-under, .workpage-share, #workcat-list li a, #breadcrumbs, #category-description, .blog-entry-content, #breadcrumbs-single, #twitter-2 h2,
+.short-description h2, #bizvideo h1
+ {
+    font-family: 'Arimo', 'Arial',sans-serif !important;
+    font-weight : normal !important;
+    -webkit-font-smoothing: antialiased; 
+    font-smoothing: antialiased;
+}
