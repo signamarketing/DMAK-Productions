@@ -13,7 +13,7 @@ get_header(); ?>
 
 	<div id="midcontainer" class="container insidepad">
 		<div id="" class="half first">
-<img id="corp-cover" src="http://dmakproductions.com/wp-content/uploads/2016/02/corporate-videos.jpg"/>
+<img id="corp-cover" src="https://dmakproductions.com/wp-content/uploads/2016/02/corporate-videos.jpg"/>
 			<h2>Get Our FREE Video Production Success Guide direct to your Inbox</h2>
 			<h3>In this eBook, you'll learn:</h3>
 			<ul>
