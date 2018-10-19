@@ -20,7 +20,7 @@
 	<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
 
 	<!-- keep Modernizr at top, all other JS at bottom -->
-	<!-- <script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script> -->
+<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 
 	<?php wp_head(); ?>
 	

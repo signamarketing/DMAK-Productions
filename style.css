@@ -837,6 +837,9 @@ div#ajax-load-more {width:100%;}
 .blog-entry-thumb-single img {  width: 333px; height: 199px; margin: auto; max-width: 100%;max-height: 100%;}
 .blog-entry-tags-single{font-size: 18px; margin-top: 28px;  margin-bottom: 53px; text-align: center; width: 100%; display: block;}
 .blog-entry-tags-single a {color: #2e2928 !important;font-weight: normal;}
+span.essb_icon {
+    margin: 1px 6px !important;
+}
 span.essb_network_name {color:#fff;}
 .essb_links.essb_template_metro { margin-bottom: 33px !important;}
 ul.essb_links_list li { text-align: center;}
