@@ -1056,7 +1056,7 @@ div#logo-and-mobile-menu-btn {display: flex; width: 100%; justify-content: space
 nav { display: none;}
 nav.mobile ul li { width: 100%; display: block; border-top: 1px solid white;  padding: 5px;}
 nav#mobilenav { width: 100%;}
-a#logo { margin-left: 0px;}
+a#logo { margin-left: -5px;}
 }
 @media only screen and (max-width:975px){
     #description{text-align:center;font-size:30px;line-height:40px;padding:100px 0px;}
