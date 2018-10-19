@@ -64,13 +64,13 @@ Template Name: Press
 
 </div>
 
-<div id="pagination-bg" class="bg clear">
+<!-- <div id="pagination-bg" class="bg clear">
 	<div id="pagination" class="container insidepad">
 		<div id="pagination-links">
-			<?php wp_pagenavi(); ?>
+			<?php// wp_pagenavi(); ?>
 		</div>
 	</div>
-</div>
+</div> -->
 <?php get_template_part( 'instagram-section', '' ); ?>
 
 <?php get_footer(); ?>

@@ -186,7 +186,7 @@ function ctkvidinit()
 {
    if(ctkloaded == 0)
    {   
-      jQuery.getScript("https://dmakproductions.com/wp-content/plugins/wd-instagram-feed/js/wdi_frontend.js?ver=1.2.10");
+      jQuery.getScript("/wp-content/plugins/wd-instagram-feed/js/wdi_frontend.js?ver=1.2.10");
       
       (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
