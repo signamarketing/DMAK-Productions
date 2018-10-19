@@ -1025,13 +1025,14 @@ nav.nav {
 
 
 @media only screen and (max-width:990px){
+    
 .nav.mobile{display:block;}
 .nav {display:none;}
 nav#mobilenav {
     width: 100%;
     clear: both;
     position: absolute;
-    top: 85px;
+    top: 118px;
     left: 0;
     right: 0;
     margin: 0px;
@@ -1163,7 +1164,9 @@ div#img-container-for-bg-action {
 
 @media (max-width:480px){
 
-    nav#mobilenav {top:118px;}
+    nav#mobilenav {
+        top: 139px;
+    }
 
 #headerbg {
     max-width: 100%;
