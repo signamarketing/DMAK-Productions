@@ -1083,7 +1083,7 @@ a#logo { margin-left: -5px;}
     display: flex;
     align-items: center;}
 #floatlogo {display:none}
-#headerbg, #floatheaderbg {padding: 20px 0;}
+#headerbg, #floatheaderbg {padding: 0px 0;}
 #header nav ul.top-nav, #floatheader nav ul.top-nav{}
 #header nav .top-nav li a, #floatheader nav .top-nav li a{    margin: 9px;}
 #workexperience{flex-direction: column; height: auto;    min-width: 0px;}
