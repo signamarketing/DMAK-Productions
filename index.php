@@ -112,10 +112,10 @@
 		</div>
 		<div class="home-sidebar">
 			<div class="home-instagram">
-				<div class="instahome-end"><a href="http://www.instagram.com/dmakproductions" target="_blank">Instagram</a></div>
+				<div class="instahome-end"><a href="https://www.instagram.com/dmakproductions" target="_blank">Instagram</a></div>
 				<div id="instafeed"></div>
 				<script src="<?php bloginfo('template_directory'); ?>/_/js/instafeed.min.js"></script>
-				<div class="instahome-end"><a href="http://www.instagram.com/dmakproductions" target="_blank">View Our Instagram</a></div>
+				<div class="instahome-end"><a href="https://www.instagram.com/dmakproductions" target="_blank">View Our Instagram</a></div>
 			</div>
 		</div>
 	</div>
