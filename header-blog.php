@@ -14,21 +14,23 @@
 	<meta name="dcterms.rightsHolder" content="Copyright DMAK Productions 2014. All Rights Reserved.">
 	<meta name="keywords" content="[ENTER KEYWORDS]"/>
 
+	<!-- icons and favicons -->
+
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.min.css">
-	<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
+	<title>Phoenix Video Production | Scottsdale Video Production | Video Marketing | Corporate Event Training Music Web TV Video Production | DMAK Productions</title>
 
 	<!-- keep Modernizr at top, all other JS at bottom -->
-	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 
 	<?php wp_head(); ?>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-P598F3');</script>
-	<!-- End Google Tag Manager -->
 	
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P598F3');</script>
+<!-- End Google Tag Manager -->
 </head>
 
 <body <?php body_class($class); ?>> 
