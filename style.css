@@ -1491,8 +1491,7 @@ img.poster-image{width:100%;height:100%;top:0px;position:absolute;z-index:-101;l
     display: block;
     width: 100%;
     height:  100%;    z-index: 1;}
-#video-bg{padding:0 0px 40px;background-size:cover;position:relative; height: calc(100vh - 163px); min-height: 550px; background: url(/wp-content/themes/dmak_v1/files/vidpic.png) no-repeat;
-    background-size: cover; overflow:hidden;} 
+#video-bg{padding:0 0px 40px;background-size:cover;position:relative; height: calc(100vh - 163px); min-height: 550px; background: url(/wp-content/uploads/2018/10/dmak-web-background.jpg) no-repeat;background-size: cover; overflow:hidden;background-position:center;} 
 .home #description{color:white;width:100%;padding:0;display:block;position:relative;left:0;right:0;margin:auto;top:0;bottom:0;height:auto;min-width:0px !important; display: flex; flex-direction: column; justify-content: center; padding:0 20px; position:absolute;}
 
 #description .learnmore-button{margin-top:00px;z-index:2;}
