@@ -139,7 +139,6 @@
 			<div class="footer-2">
 				<h3>Quick Links</h3>
 				<?php footer_links(); ?>
-
 			</div>
 
 			<div class="footer-3">
@@ -150,9 +149,6 @@
 				<div><a href="https://www.instagram.com/dmakproductions/" target="_blank"><img alt="go to dmak insta" src="/wp-content/uploads/2018/10/insta-social.png"></a></div>
 				<div><a href="https://twitter.com/Dmakproductions" target="_blank"><img alt="go to dmak twitter" src="/wp-content/uploads/2018/10/twitter-social.png"></a></div>
 				</div>
-				
-
-
 			</div>
 
 			<div class="footer-4">
@@ -232,9 +228,9 @@ jQuery(document).ready(function(){
 });
 
 </script>
-<!-- <script src="<?php bloginfo('template_directory'); ?>/_/js/waypoints.min.js"></script> -->
+<script src="<?php bloginfo('template_directory'); ?>/_/js/waypoints.min.js"></script>
 
-<!-- <script src="<?php bloginfo('template_directory'); ?>/_/js/waypoints-sticky.min.js"></script> -->
+<script src="<?php bloginfo('template_directory'); ?>/_/js/waypoints-sticky.min.js"></script>
 
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.cycle.all.js"></script>
 
