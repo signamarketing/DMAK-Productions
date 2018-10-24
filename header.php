@@ -6,21 +6,24 @@
 <!--[if gt IE 9]><!--><html class="no-js" <?php language_attributes(); ?>><!--<![endif]-->
 
 <head>
+
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<meta name="author" content="DMAK Productions">
 	<meta name="dcterms.rightsHolder" content="Copyright DMAK Productions 2014. All Rights Reserved.">
 	<meta name="keywords" content="[ENTER KEYWORDS]"/>
-
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.min.css">
 	<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
 
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.min.css">
+	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- keep Modernizr at top, all other JS at bottom -->
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 
 	<?php wp_head(); ?>
+	
+
+	
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
