@@ -16,7 +16,7 @@
 	<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
 
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.min.css">
-	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- keep Modernizr at top, all other JS at bottom -->
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 
