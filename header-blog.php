@@ -13,7 +13,7 @@
 	<meta name="author" content="DMAK Productions">
 	<meta name="dcterms.rightsHolder" content="Copyright DMAK Productions 2014. All Rights Reserved.">
 	<meta name="keywords" content="[ENTER KEYWORDS]"/>
-	<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
+	<title>Phoenix Video Production | Scottsdale Video Production | Video Marketing | Corporate Event Training Music Web TV Video Production | DMAK Productions</title>
 
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.min.css">
 	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
