@@ -825,7 +825,7 @@ span.wpcf7-list-item{margin-left:0.5em;display:inline-block;margin-bottom:5px;}
 
 }
 div#ajax-load-more {width:100%;}
-.alm-btn-wrap { text-align: center;width:100%;}
+.alm-btn-wrap { text-align: center;width:100%;margin-bottom:70px;}
 .alm-btn-wrap button { max-width: 200px; font-size: 18px; text-align: center;  background-color: transparent; color: #2e2928 !important; border: 2px solid #2e2928; border-radius: 0px; padding: 12px 30px; width: 100%; outline: none; transition: .3s all;}
 .alm-btn-wrap button:hover { background-color: #2e2928;  color: #fff !important;}
 .blog-entry-title-single{font-size:18px;text-align:center;padding:0px 40px 20px 40px;  text-transform:uppercase;}
