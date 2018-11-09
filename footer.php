@@ -173,7 +173,7 @@
 
 </footer>
 
-
+<!-- jQuery is called via functions.php -->
 
 
 <script>
@@ -228,9 +228,9 @@ jQuery(document).ready(function(){
 });
 
 </script>
-<!-- <script src="<?php // bloginfo('template_directory'); ?>/_/js/waypoints.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/_/js/waypoints.min.js"></script>
 
-<script src="<?php // bloginfo('template_directory'); ?>/_/js/waypoints-sticky.min.js"></script> -->
+<script src="<?php bloginfo('template_directory'); ?>/_/js/waypoints-sticky.min.js"></script>
 
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.cycle.all.js"></script>
 
@@ -240,7 +240,8 @@ jQuery(document).ready(function(){
 
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Roboto:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet">
 
 
 <script type="text/javascript">

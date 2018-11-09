@@ -6,24 +6,33 @@
 <!--[if gt IE 9]><!--><html class="no-js" <?php language_attributes(); ?>><!--<![endif]-->
 
 <head>
-
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<meta name="author" content="DMAK Productions">
 	<meta name="dcterms.rightsHolder" content="Copyright DMAK Productions 2014. All Rights Reserved.">
 	<meta name="keywords" content="[ENTER KEYWORDS]"/>
-	<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
 
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.min.css">
-	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<?php
+
+// Add a search form to the Services page template.
+
+if (is_page_template( array('taxonomy-work-categories.php', 'archive-corporate.php', 'archive-press-post', 'archive-videos', 'archive-work_post.php', 'archive.php', 'author.php', 'taxonomy-blog_categories.php', 'taxonomy-blog_tags.php' ) ) ){ ?>
+	<title><?php bloginfo('name'); ?><?php wp_title('|'); echo "DMAK Productions"; ?></title>
+<?php } 
+
+else { ?>
+	<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
+	<?php }
+?>
+
 	<!-- keep Modernizr at top, all other JS at bottom -->
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 
 	<?php wp_head(); ?>
-	
-
-	
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

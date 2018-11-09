@@ -10,25 +10,25 @@
 
 	// Load jQuery
 
-	// if ( !function_exists(core_mods) ) {
+	if ( !function_exists(core_mods) ) {
 
-	// 	function core_mods() {
+		function core_mods() {
 
-	// 		if ( !is_admin() ) {
+			if ( !is_admin() ) {
 
-	// 			wp_deregister_script('jquery');
+				wp_deregister_script('jquery');
 
-	// 			wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"), false);
+				wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"), false);
 
-	// 			wp_enqueue_script('jquery');
+				wp_enqueue_script('jquery');
 
-	// 		}
+			}
 
-	// 	}
+		}
 
-	// 	core_mods();
+		core_mods();
 
-	// }
+	}
 
 
 
