@@ -36,8 +36,7 @@ Template Name: Work
 
 	<div id="pagevideo" class="container insidepad">
 		<div class="fve-video-wrapper fve-image-embed fve-thumbnail-image youtube" style="padding-bottom:56.25%;">
-			<iframe src="https://player.vimeo.com/video/189040143" width="853" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+			<?php echo do_shortcode('[fve]'. get_field('videos_page_video_link', 'option') .'[/fve]'); ?>
 		</div>
 
 		<?php// echo do_shortcode('[fve]'. get_field('video', page-id-1217) .'[/fve]'); ?>
