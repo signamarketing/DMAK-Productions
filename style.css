@@ -1681,8 +1681,8 @@ section {
 }
 
 .landing-contact-form-shadow-bg input {
-    margin-bottom: 15px;
-    width: 100%;
+    margin-bottom: 15px !important;
+    width: 100% !important;
 }
 
 .landing-contact-form-shadow-bg input[type="submit"] {
@@ -1724,13 +1724,12 @@ textarea[name="textarea-584"] {
     .col-8 {
         width: 60%;
         float: left;
-        padding: 40px;
+        padding-right: 40px;
     }
     
     .col-4 {
         width: 40%;
         float: left;
-        padding: 40px;
     }
 
     .list-half {
