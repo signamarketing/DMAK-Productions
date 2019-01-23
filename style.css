@@ -575,7 +575,7 @@ div#pagemainsection-bg.clients { padding: 90px 0;}
 .sidebar-content{margin-bottom:10px;}
 .button-container{margin-top:30px;}
 .three-col{height:550px;}
-.fve-video-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:56.25% !important;margin:0.5em 0;}
+.fve-video-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:56.25% !important;margin:0;}
 
 
 #hp-testimonial .container.insidepad { display: flex; justify-content: space-between;}
@@ -1625,10 +1625,7 @@ div#featured-work-logo-container div {
 @media (min-width:1200px){}
 #corp-cover{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.1);border:1px solid #ccc;margin:auto auto 30px;margin:0px 25px 10px 0px;display:block;float:left;height:160px;}
 
-
-
 /* Video Production Landing */
-
 .landing-bg {
     background: #ece9e9;
     min-height: 100%;
@@ -1659,7 +1656,7 @@ section {
     color: #fff;
 }
 
-.bg-dkgrey h2,
+.bg-dkgrey h3,
 .bg-dkgrey p {
     color: #fff;
 }
@@ -1670,6 +1667,7 @@ section {
 
 .page-title-landing {
     color: #000;
+    font-weight: 600;
 }
 
 #leadpages-submit-button {
@@ -1687,11 +1685,25 @@ section {
     padding: 0 25px;
 }
 
+.landing-contact-form-shadow-bg input {
+    margin-bottom: 15px;
+}
+
+textarea[name="textarea-584"] {
+    background: #fff;
+}
+
 
 /* Mobile */
 @media(min-width: 768px) {
     .padding-small {
         padding: 25px 0px;
+    }
+
+    .col-8, .col-4 {
+        width: 100%;
+        float: none;
+
     }
 
 
