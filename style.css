@@ -1625,7 +1625,12 @@ div#featured-work-logo-container div {
 @media (min-width:1200px){}
 #corp-cover{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.1);border:1px solid #ccc;margin:auto auto 30px;margin:0px 25px 10px 0px;display:block;float:left;height:160px;}
 
+
+
+
 /* Video Production Landing */
+/* Mobile First */
+
 .landing-bg {
     background: #ece9e9;
     min-height: 100%;
@@ -1633,18 +1638,6 @@ div#featured-work-logo-container div {
 
 .text-center {
     text-align: center;
-}
-
-.col-8 {
-    width: 60%;
-    float: left;
-    padding: 40px;
-}
-
-.col-4 {
-    width: 40%;
-    float: left;
-    padding: 40px;
 }
 
 section {
@@ -1693,17 +1686,29 @@ textarea[name="textarea-584"] {
     background: #fff;
 }
 
+.col-8, .col-4 {
+    width: 100%;
+    float: none;
+}
 
-/* Mobile */
+
+/* Desktop */
+
 @media(min-width: 768px) {
     .padding-small {
-        padding: 25px 0px;
+        padding: 90px 0px;
     }
 
-    .col-8, .col-4 {
-        width: 100%;
-        float: none;
-
+    .col-8 {
+        width: 60%;
+        float: left;
+        padding: 40px;
+    }
+    
+    .col-4 {
+        width: 40%;
+        float: left;
+        padding: 40px;
     }
 
 

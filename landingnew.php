@@ -37,7 +37,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="half first">
-					<h3>Intuitive Expertise. </h3>
+					<h3>Intuitive Expertise</h3>
 					<p>We treat each client as a creative partenr. Our process begins with a co-created strategic plan and ends with excitement to share what we've made together.</p>
 					<p>As producers, we balance commerical and art in a way that generates reults without sacrificing the overall experience.</p>
 				</div>
