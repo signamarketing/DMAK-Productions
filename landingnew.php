@@ -9,7 +9,7 @@ get_header(); ?>
 
 			<div class="row">
 				<div class="full-width text-center">
-					<h1 class="page-title">Grow Your Business with Video Content</h1>
+					<h1 class="page-title-landing">Grow Your Business with Video Content</h1>
 					<h2 class="page-subtitle">Get a quote on your project. Contact us today.</h2>
 				</div>
 			</div>
