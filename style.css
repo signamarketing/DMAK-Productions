@@ -1701,12 +1701,12 @@ textarea[name="textarea-584"] {
 .gform_wrapper .top_label input.medium, 
 .gform_wrapper .top_label select.medium,
 .gform_wrapper textarea.medium {
-    width: 100%;
+    width: 100% !important;
 }
 
 .gform_wrapper .top_label input.medium, 
 .gform_wrapper .top_label select.medium {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .gfield_label {
@@ -1723,6 +1723,16 @@ textarea[name="textarea-584"] {
     font-weight: 700;
     font-size: 24px;
     transition: 300ms all;
+    padding: 10px 15px;
+}
+
+.gform_wrapper {
+    margin: 0 !important;
+}
+
+.gform_wrapper .gform_footer {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 
