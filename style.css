@@ -1621,8 +1621,27 @@ div#featured-work-logo-container div {
 #corp-cover{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.1);border:1px solid #ccc;margin:auto auto 30px;margin:0px 25px 10px 0px;display:block;float:left;height:160px;}
 
 
-/* Landing Page */
+
+/* Video Production Landing */
+
 .landing-bg {
-    background-color: #ece9e9;
-    
+    background: #ece9e9;
+    min-height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.col-8 {
+    width: 75%;
+    float: left;
+    padding: 40px;
+
+}
+
+.col-4 {
+    width: 25%;
+    float: left;
+    padding: 40px;
 }

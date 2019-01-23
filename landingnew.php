@@ -4,12 +4,12 @@ Template Name: DMAK Video Proudction Landing NEW
 */
 get_header(); ?>
 
-	<section id="fyreoverride">
+	<section>
 		<div id="landing-bg">
 
-			<div class="container">
+			<div>
 				<div class="row">
-					<div class="col-xs-12 text-center">
+					<div class="full-width text-center">
 						<h1 class="page-title">Grow Your Business with Video Content</h1>
 						<h2 class="page-subtitle">Get a quote on your project. Contact us today.</h2>
 					</div>
@@ -17,14 +17,14 @@ get_header(); ?>
 
 				<div class="row">
 					<!-- Video -->
-					<div class="half first">
+					<div class="col-8">
 						<div class="fve-video-wrapper fve-image-embed fve-thumbnail-image youtube" style="padding-bottom:56.25%;">
 							<?php echo do_shortcode('[fve]https://vimeo.com/189035053[/fve]'); ?>
 						</div>
 					</div>
 
 					<!-- Form -->
-					<div class="half last">
+					<div class="col-3 col-last">
 						<?php echo do_shortcode('[contact-form-7 id="2014" title="landing_businees"]'); ?>
 					</div>
 				</div>
