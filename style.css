@@ -1660,6 +1660,7 @@ section {
 
 .page-title-landing {
     color: #000;
+    margin-bottom: 30px;
 }
 
 #leadpages-submit-button {
@@ -1718,7 +1719,7 @@ textarea[name="textarea-584"] {
 
 @media(min-width: 768px) {
     .padding-small {
-        padding: 90px 0px;
+        padding: 40px 0px;
     }
 
     .col-8 {

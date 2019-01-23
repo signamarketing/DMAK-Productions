@@ -7,7 +7,7 @@ get_header(); ?>
 	<section class="landing-bg padding-small">
 		<div class="container">
 
-			<div class="row">
+			<div class="row mb4">
 				<div class="full-width text-center">
 					<h1 class="page-title-landing">Grow Your Business with Video Content</h1>
 					<p class="page-subtitle">Get a quote on your project. Contact us today.</p>
