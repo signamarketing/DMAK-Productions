@@ -37,16 +37,33 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="half first">
-					<h2>Intuitive Expertise. </h2>
-					<p>We treat each client as a creative partenr.</p>
+					<h3>Intuitive Expertise. </h3>
+					<p>We treat each client as a creative partenr. Our process begins with a co-created strategic plan and ends with excitement to share what we've made together.</p>
+					<p>As producers, we balance commerical and art in a way that generates reults without sacrificing the overall experience.</p>
 				</div>
 
 				<div class="half last">
-					<h2>Complete Video Services</h2>
-					<ul>
-						<li><p>Video Production</p></li>
-						<li><p>Post-Production</p></li>
-					</ul>
+					<h3>Complete Video Services</h3>
+					<div class="half">
+						<ul>
+							<li><p>Video Production</p></li>
+							<li><p>Post-Production</p></li>
+							<li><p>Video Editing</p></li>
+							<li><p>3D Animation</p></li>
+							<li><p>Motion Graphics</p></li>
+							<li><p>Photography</p></li>
+						</ul>
+					</div>
+					<div class="half">
+						<ul>
+							<li><p>Cinematography</p></li>
+							<li><p>Aerial Photos &amp; Video</p></li>
+							<li><p>Video Marketing</p></li>
+							<li><p>Production Crew</p></li>
+							<li><p>Green Screen</p></li>
+							<li><p>Video Brochures</p></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
