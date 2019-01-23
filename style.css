@@ -1677,7 +1677,7 @@ section {
     max-width: 100%;
     box-shadow: 0 12px 37px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
     background-color: #fff;
-    padding: 0 25px;
+    padding: 25px;
 }
 
 .landing-contact-form-shadow-bg input {
@@ -1701,6 +1701,11 @@ textarea[name="textarea-584"] {
     padding: 0px;
     width: 50%;
     float: left;
+    padding-right: 15px;
+}
+
+.fve-video-wrapper {
+    margin: 0px;
 }
 
 
@@ -1721,6 +1726,10 @@ textarea[name="textarea-584"] {
         width: 40%;
         float: left;
         padding: 40px;
+    }
+
+    .list-half {
+        padding-right: 0px;
     }
 
 
