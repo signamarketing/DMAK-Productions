@@ -17,7 +17,7 @@ get_header(); ?>
 			<div class="row">
 				<!-- Video -->
 				<div class="col-8">
-					<div class="fve-video-wrapper fve-image-embed fve-thumbnail-image youtube" style="padding-bottom:56.25%;">
+					<div class="fve-video-wrapper fve-image-embed fve-thumbnail-image youtube">
 						<?php echo do_shortcode('[fve]https://vimeo.com/189035053[/fve]'); ?>
 					</div>
 				</div>
