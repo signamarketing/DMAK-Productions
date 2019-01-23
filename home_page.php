@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home
+Template Name: DMAK Home Page
 */
 ?>
 
@@ -10,7 +10,7 @@ Template Name: Home
 		<div id="description" class="container insidepad">
 		<h1 class="homepage-title"><?php the_field("intro_heading"); ?></h1>
 		<?php 
-			the_field("introduction_paragraph")
+			the_field("introduction_paragraph");
 		?>
 
 		</div>
