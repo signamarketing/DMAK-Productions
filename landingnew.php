@@ -25,7 +25,7 @@ get_header(); ?>
 				<!-- Form -->
 				<div class="col-4 col-last">
 					<div id="landing-contact-form-shadow-bg">
-						<?php echo do_shortcode('[contact-form-7 id="2014" title="landing_businees"]'); ?>
+						<?php echo do_shortcode('[gravityform id="3" title="false" description="false"]'); ?>
 					</div>
 				</div>
 			</div>

@@ -1681,6 +1681,7 @@ section {
     padding: 25px;
 }
 
+/* 
 #landing-contact-form-shadow-bg input {
     margin-bottom: 15px;
     width: 100%;
@@ -1688,7 +1689,13 @@ section {
 
 .landing-contact-form-shadow-bg input[type="submit"] {
     width: auto;
-}
+
+
+    name
+    email
+    phone 
+    message
+} */
 
 textarea[name="textarea-584"] {
     background: #fff;
