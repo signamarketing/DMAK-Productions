@@ -1688,8 +1688,6 @@ textarea[name="textarea-584"] {
 
 .list-half {
     padding: 0px;
-    width: 50%;
-    float: left;
     padding-right: 15px;
 }
 
@@ -1737,6 +1735,13 @@ textarea[name="textarea-584"] {
 
 
 /* Desktop */
+
+@media(min-width: 768px) {
+    .list-half {
+        width: 50%;
+        float: left;
+    }
+}
 
 @media(min-width: 1024px) {
     .padding-small {
