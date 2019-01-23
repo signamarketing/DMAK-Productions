@@ -1659,6 +1659,11 @@ section {
     color: #fff;
 }
 
+.bg-dkgrey h2,
+.bg-dkgrey p {
+    color: #fff;
+}
+
 .padding-small {
     padding: 90px 0px;
 }
@@ -1667,3 +1672,28 @@ section {
     color: #000;
 }
 
+#leadpages-submit-button {
+    background-color: #face09;
+    color: #2e2928;
+    border: none;
+    border-radius: 0px;
+}
+
+#landing-contact-form-shadow-bg {
+    width: auto;
+    max-width: 100%;
+    box-shadow: 0 12px 37px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    background-color: #fff;
+    padding: 0 25px;
+}
+
+
+/* Mobile */
+@media(min-width: 768px) {
+    .padding-small {
+        padding: 25px 0px;
+    }
+
+
+
+}

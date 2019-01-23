@@ -23,8 +23,10 @@ get_header(); ?>
 				</div>
 
 				<!-- Form -->
-				<div class="col-3 col-last">
-					<?php echo do_shortcode('[contact-form-7 id="2014" title="landing_businees"]'); ?>
+				<div class="col-4 col-last">
+					<div id="landing-contact-form-shadow-bg">
+						<?php echo do_shortcode('[contact-form-7 id="2014" title="landing_businees"]'); ?>
+					</div>
 				</div>
 			</div>
 
