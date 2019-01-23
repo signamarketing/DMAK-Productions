@@ -1655,22 +1655,13 @@ section {
 }
 
 .padding-small {
-    padding: 0px;
+    padding: 0;
+    padding-bottom: 40px;
 }
 
 .page-title-landing {
     color: #000;
     margin-bottom: 30px;
-}
-
-#leadpages-submit-button {
-    background-color: #face09;
-    color: #2e2928;
-    border: none;
-    border-radius: 0px;
-    font-weight: 700;
-    font-size: 24px;
-    transition: 300ms all;
 }
 
 #landing-contact-form-shadow-bg {
@@ -1679,23 +1670,8 @@ section {
     box-shadow: 0 12px 37px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
     background-color: #fff;
     padding: 25px;
+    margin-top: 40px;
 }
-
-/* 
-#landing-contact-form-shadow-bg input {
-    margin-bottom: 15px;
-    width: 100%;
-}
-
-.landing-contact-form-shadow-bg input[type="submit"] {
-    width: auto;
-
-
-    name
-    email
-    phone 
-    message
-} */
 
 textarea[name="textarea-584"] {
     background: #fff;
@@ -1721,10 +1697,38 @@ textarea[name="textarea-584"] {
     margin: 0 !important;
 }
 
+/* forms */
+.gform_wrapper .top_label input.medium, 
+.gform_wrapper .top_label select.medium,
+.gform_wrapper textarea.medium {
+    width: 100%;
+}
+
+.gform_wrapper .top_label input.medium, 
+.gform_wrapper .top_label select.medium {
+    margin-bottom: 15px;
+}
+
+.gfield_label {
+    font-size: 14px;
+}
+
+.gform_wrapper .gform_footer input.button, 
+.gform_wrapper .gform_footer input[type=image], 
+.gform_wrapper .gform_footer input[type=submit] {
+    background-color: #face09;
+    color: #2e2928;
+    border: none;
+    border-radius: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    transition: 300ms all;
+}
+
 
 /* Desktop */
 
-@media(min-width: 768px) {
+@media(min-width: 1024px) {
     .padding-small {
         padding: 40px 0px;
     }
@@ -1744,6 +1748,8 @@ textarea[name="textarea-584"] {
         padding-right: 0px;
     }
 
-
+    #landing-contact-form-shadow-bg {
+        margin-top: 0px;
+    }
 
 }
