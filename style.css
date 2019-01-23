@@ -1681,9 +1681,9 @@ section {
     padding: 25px;
 }
 
-.landing-contact-form-shadow-bg input {
-    margin-bottom: 15px !important;
-    width: 100% !important;
+#landing-contact-form-shadow-bg input {
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 .landing-contact-form-shadow-bg input[type="submit"] {
