@@ -1199,7 +1199,8 @@ div#img-container-for-bg-action {
 .page-template-successnew #mc_embed_signup,
 .page-template-landingnew #footerbottombg,
 .page-template-landingnew #twitterfeedbg,
-.page-template-landingnew #mc_embed_signup
+.page-template-landingnew #mc_embed_signup,
+.page-template-landingnew #newsletter-content
 /* .page-template-landingnew #headerbg
 .page-template-landingnew #floatheaderbg */
 {display:none !important;}
@@ -1649,8 +1650,13 @@ div#featured-work-logo-container div {
     padding: 40px;
 }
 
+section {
+    overflow: hidden;
+}
+
 .bg-dkgrey {
     background: #2d2827;
+    color: #fff;
 }
 
 .padding-small {
@@ -1660,3 +1666,4 @@ div#featured-work-logo-container div {
 .page-title-landing {
     color: #000;
 }
+

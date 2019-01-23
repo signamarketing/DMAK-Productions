@@ -5,7 +5,7 @@ Template Name: DMAK Video Proudction Landing NEW
 get_header(); ?>
 
 	<section class="landing-bg padding-small">
-		<div>
+		<div class="container">
 
 			<div class="row">
 				<div class="full-width text-center">
