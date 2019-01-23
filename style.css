@@ -1655,12 +1655,11 @@ section {
 }
 
 .padding-small {
-    padding: 90px 0px;
+    padding: 0px;
 }
 
 .page-title-landing {
     color: #000;
-    font-weight: 600;
 }
 
 #leadpages-submit-button {
@@ -1668,6 +1667,9 @@ section {
     color: #2e2928;
     border: none;
     border-radius: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    transition: 300ms all;
 }
 
 #landing-contact-form-shadow-bg {
@@ -1689,6 +1691,16 @@ textarea[name="textarea-584"] {
 .col-8, .col-4 {
     width: 100%;
     float: none;
+}
+
+.mb4 {
+    margin-bottom: 40px;
+}
+
+.list-half {
+    padding: 0px;
+    width: 50%;
+    float: left;
 }
 
 

@@ -10,7 +10,7 @@ get_header(); ?>
 			<div class="row">
 				<div class="full-width text-center">
 					<h1 class="page-title-landing">Grow Your Business with Video Content</h1>
-					<h2 class="page-subtitle">Get a quote on your project. Contact us today.</h2>
+					<p class="page-subtitle">Get a quote on your project. Contact us today.</p>
 				</div>
 			</div>
 
@@ -37,14 +37,14 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="half first">
-					<h3>Intuitive Expertise</h3>
+					<h3 class="mb4">Intuitive Expertise</h3>
 					<p>We treat each client as a creative partenr. Our process begins with a co-created strategic plan and ends with excitement to share what we've made together.</p>
 					<p>As producers, we balance commerical and art in a way that generates reults without sacrificing the overall experience.</p>
 				</div>
 
 				<div class="half last">
-					<h3>Complete Video Services</h3>
-					<div class="half">
+					<h3 class="mb4">Complete Video Services</h3>
+					<div class="list-half">
 						<ul>
 							<li><p>Video Production</p></li>
 							<li><p>Post-Production</p></li>
@@ -54,7 +54,7 @@ get_header(); ?>
 							<li><p>Photography</p></li>
 						</ul>
 					</div>
-					<div class="half">
+					<div class="list-half">
 						<ul>
 							<li><p>Cinematography</p></li>
 							<li><p>Aerial Photos &amp; Video</p></li>
