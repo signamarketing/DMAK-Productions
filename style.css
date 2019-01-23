@@ -1682,6 +1682,11 @@ section {
 
 .landing-contact-form-shadow-bg input {
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.landing-contact-form-shadow-bg input[type="submit"] {
+    width: auto;
 }
 
 textarea[name="textarea-584"] {
@@ -1705,7 +1710,7 @@ textarea[name="textarea-584"] {
 }
 
 .fve-video-wrapper {
-    margin: 0px;
+    margin: 0 !important;
 }
 
 
