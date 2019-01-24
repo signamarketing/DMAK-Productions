@@ -1652,7 +1652,8 @@ section {
 }
 
 .bg-dkgrey h3,
-.bg-dkgrey p {
+.bg-dkgrey p,
+.bg-dkgrey li {
     color: #fff;
 }
 
