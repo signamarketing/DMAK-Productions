@@ -13,7 +13,21 @@
 	<meta name="author" content="DMAK Productions">
 	<meta name="dcterms.rightsHolder" content="Copyright DMAK Productions 2014. All Rights Reserved.">
 	<meta name="keywords" content="[ENTER KEYWORDS]"/>
+
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.min.css">
+
+	<?php
+
+// Add a search form to the Services page template.
+
+if (is_page_template( array('taxonomy-work-categories.php', 'archive-corporate.php', 'archive-press-post', 'archive-videos', 'archive-work_post.php', 'archive.php', 'author.php', 'taxonomy-blog_categories.php', 'taxonomy-blog_tags.php' ) ) ){ ?>
+	<title><?php bloginfo('name'); ?><?php wp_title('|'); echo "DMAK Productions"; ?></title>
+<?php } 
+
+else { ?>
 	<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
+	<?php }
+?>
 
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.min.css">
 	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -23,7 +37,7 @@
 	<?php wp_head(); ?>
 	
 
-	
+
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

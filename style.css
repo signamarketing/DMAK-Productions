@@ -575,7 +575,7 @@ div#pagemainsection-bg.clients { padding: 90px 0;}
 .sidebar-content{margin-bottom:10px;}
 .button-container{margin-top:30px;}
 .three-col{height:550px;}
-.fve-video-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:56.25% !important;margin:0.5em 0;}
+.fve-video-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:56.25% !important;margin:0;}
 
 
 #hp-testimonial .container.insidepad { display: flex; justify-content: space-between;}
@@ -1193,13 +1193,20 @@ div#img-container-for-bg-action {
 #mc_embed_signup input{width:100% !important;}
 #mc_embed_signup_scroll{padding:15px 0 30px;}
 #fyreoverride *{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+
+/* Remove site content on landing page */
 .page-template-successnew #twitterfeedbg,
 .page-template-successnew #mc_embed_signup,
-.page-template-landingnew #floatheaderbg,
 .page-template-landingnew #footerbottombg,
 .page-template-landingnew #twitterfeedbg,
 .page-template-landingnew #mc_embed_signup,
-.page-template-landingnew #headerbg{display:none !important;}
+.page-template-landingnew #newsletter,
+.page-template-landingnew .nav,
+.page-template-landingnew #toggle-bar
+/* .page-template-landingnew #headerbg
+.page-template-landingnew #floatheaderbg */
+{display:none !important;}
+
 .page-template-landingnew #copyrightbottombg{position:relative;float:left;width:100%;margin-top:40px;z-index:0;}
 .page-template-successnew{background:black;}
 .page-template-successnew .footer-1{width:40%;}
@@ -1622,3 +1629,149 @@ div#featured-work-logo-container div {
 #corp-cover{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.1);border:1px solid #ccc;margin:auto auto 30px;margin:0px 25px 10px 0px;display:block;float:left;height:160px;}
 
 
+
+
+/* Video Production Landing */
+/* Mobile First */
+
+.landing-bg {
+    background: #ece9e9;
+    min-height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+section {
+    overflow: hidden;
+}
+
+.bg-dkgrey {
+    background: #2d2827;
+    color: #fff;
+}
+
+.bg-dkgrey h3,
+.bg-dkgrey p,
+.bg-dkgrey li {
+    color: #fff;
+}
+
+.padding-small {
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+.page-title-landing {
+    color: #000;
+    margin-bottom: 30px;
+}
+
+#landing-contact-form-shadow-bg {
+    width: auto;
+    max-width: 100%;
+    box-shadow: 0 12px 37px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    background-color: #fff;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+textarea[name="textarea-584"] {
+    background: #fff;
+}
+
+.col-8, .col-4 {
+    width: 100%;
+    float: none;
+}
+
+.mb4 {
+    margin-bottom: 40px;
+}
+
+.list-half {
+    padding: 0px;
+    padding-right: 15px;
+}
+
+.fve-video-wrapper {
+    margin: 0 !important;
+}
+
+/* forms */
+.gform_wrapper .top_label input.medium, 
+.gform_wrapper .top_label select.medium,
+.gform_wrapper textarea.medium {
+    width: 100% !important;
+}
+
+.gform_wrapper .top_label input.medium, 
+.gform_wrapper .top_label select.medium {
+    margin-bottom: 5px;
+}
+
+.gfield_label {
+    font-size: 14px;
+}
+
+.gform_wrapper .gform_footer input.button, 
+.gform_wrapper .gform_footer input[type=image], 
+.gform_wrapper .gform_footer input[type=submit] {
+    background-color: #face09;
+    color: #2e2928;
+    border: none;
+    border-radius: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    transition: 300ms all;
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.gform_wrapper {
+    margin: 0 !important;
+}
+
+.gform_wrapper .gform_footer {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/* Desktop */
+
+@media(min-width: 768px) {
+    .list-half {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media(min-width: 1024px) {
+    .padding-small {
+        padding: 40px 0px;
+    }
+
+    .col-8 {
+        width: 70%;
+        float: left;
+        padding-right: 40px;
+    }
+    
+    .col-4 {
+        width: 30%;
+        float: left;
+    }
+
+    .list-half {
+        padding-right: 0px;
+    }
+
+    #landing-contact-form-shadow-bg {
+        margin-top: 0px;
+    }
+
+}

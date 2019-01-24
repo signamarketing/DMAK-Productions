@@ -228,9 +228,9 @@ jQuery(document).ready(function(){
 });
 
 </script>
-<!-- <script src="<?php // bloginfo('template_directory'); ?>/_/js/waypoints.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/_/js/waypoints.min.js"></script>
 
-<script src="<?php // bloginfo('template_directory'); ?>/_/js/waypoints-sticky.min.js"></script> -->
+<script src="<?php bloginfo('template_directory'); ?>/_/js/waypoints-sticky.min.js"></script>
 
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.cycle.all.js"></script>
 

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Landing page
+Template Name: DMAK Video Production Landing
 */
 ?>
 
