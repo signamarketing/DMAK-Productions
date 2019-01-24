@@ -9,8 +9,8 @@ get_header(); ?>
 
 			<div class="row mb4">
 				<div class="full-width text-center">
-					<h1 class="page-title-landing">Grow Your Business with Video Content</h1>
-					<p class="page-subtitle">Get a quote on your project. Contact us today.</p>
+					<h1 class="page-title-landing"><?php echo get_field('landing_page_title'); ?></h1>
+					<p class="page-subtitle"><?php echo get_field('landing_page_subtitle'); ?></p>
 				</div>
 			</div>
 
@@ -37,33 +37,13 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="half first">
-					<h3 class="mb4">Intuitive Expertise</h3>
-					<p>We treat each client as a creative partenr. Our process begins with a co-created strategic plan and ends with excitement to share what we've made together.</p>
-					<p>As producers, we balance commerical and art in a way that generates reults without sacrificing the overall experience.</p>
+					<h3 class="mb4"><?php echo get_field('first_column_title'); ?></h3>
+					<?php the_field('first_column_text'); ?>
 				</div>
 
 				<div class="half last">
-					<h3 class="mb4">Complete Video Services</h3>
-					<div class="list-half">
-						<ul>
-							<li><p>Video Production</p></li>
-							<li><p>Post-Production</p></li>
-							<li><p>Video Editing</p></li>
-							<li><p>3D Animation</p></li>
-							<li><p>Motion Graphics</p></li>
-							<li><p>Photography</p></li>
-						</ul>
-					</div>
-					<div class="list-half">
-						<ul>
-							<li><p>Cinematography</p></li>
-							<li><p>Aerial Photos &amp; Video</p></li>
-							<li><p>Video Marketing</p></li>
-							<li><p>Production Crew</p></li>
-							<li><p>Green Screen</p></li>
-							<li><p>Video Brochures</p></li>
-						</ul>
-					</div>
+					<h3 class="mb4"><?php echo get_field('second_column_title'); ?></h3>
+					<?php the_field('second_column_list'); ?>
 				</div>
 			</div>
 
