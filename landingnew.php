@@ -66,7 +66,11 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
+
+			<?php get_template_part( 'portfolio-logos', '' ); ?>
 		</div>
 	</section>
+
+	<?php get_template_part( 'testimonial-section', '' ); ?>
 
 <?php get_footer(); ?>

@@ -1724,6 +1724,8 @@ textarea[name="textarea-584"] {
     font-size: 24px;
     transition: 300ms all;
     padding: 10px 15px;
+    width: 100%;
+    margin-top: 5px;
 }
 
 .gform_wrapper {
