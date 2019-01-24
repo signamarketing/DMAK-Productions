@@ -1712,7 +1712,7 @@ textarea[name="textarea-584"] {
 }
 
 .gfield_label {
-    font-size: 14px;
+    font-size: 14px !important;
 }
 
 .gform_wrapper .gform_footer input.button, 
@@ -1726,8 +1726,8 @@ textarea[name="textarea-584"] {
     font-size: 24px;
     transition: 300ms all;
     padding: 10px 15px;
-    width: 100%;
-    margin-top: 5px;
+    width: 100% !important;
+    margin-top: 5px !important;
     text-align: center;
 }
 
