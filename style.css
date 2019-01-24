@@ -1740,6 +1740,14 @@ textarea[name="textarea-584"] {
     margin: 0 !important;
 }
 
+body .gform_wrapper ul li.gfield {
+    margin-top: 0px !important;
+}
+
+.gform_wrapper ul.gform_fields li.gfield {
+    padding-right: 0px !important;
+}
+
 
 /* Desktop */
 
