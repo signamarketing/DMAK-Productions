@@ -1,7 +1,9 @@
 <div id="hp-testimonial" class="bg clear">
 	<div class="container insidepad">
 		<div id="hp-testimonial-video">
-		<iframe src="https://player.vimeo.com/video/189040143" width="100%" height="377" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+		<?php echo do_shortcode('[fve]'. get_field('testimonial_video_link', 'option') .'[/fve]'); ?>
+
 		</div>
 		<div id="hp-testimonial-content-container">
 			<h4>Ask Our Clients,<br>D-Mak Delivers.</h4>
@@ -13,3 +15,6 @@
 		</div>
 	</div>
 </div>
+
+
+<!-- https://player.vimeo.com/video/189040143 -->
