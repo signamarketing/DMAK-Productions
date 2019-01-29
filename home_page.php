@@ -14,8 +14,8 @@ Template Name: DMAK Home Page
 		?>
 
 		</div>
-	<video autoplay loop muted  id="bgvid">
-		<source src="/wp-content/uploads/2018/09/DMAK_Productions_Homepage_Background.mp4" type="video/mp4">
+	<video autoplay loop muted id="bgvid">
+		<source src="/wp-content/uploads/2019/01/DMAK_Productions_Homepage_Background_3.mp4" type="video/mp4">
 	</video>
 </section>
 
