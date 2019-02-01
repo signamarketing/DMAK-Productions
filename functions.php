@@ -984,54 +984,35 @@ function register_workpost() {
 
 //register new sidebar
 
+if ( function_exists('register_sidebar') ) {
+  register_sidebar(array(
+    'name' => 'Instagram',
+    'id' => 'instagram-sidebar',
+    'before_widget' => '<div class="instagram-snaps">',
+    'after_widget' => '</div>',
+    'before_title' => '<h1 class="presstitle">',
+    'after_title' => '</h1>'
+  ));
 
+  register_sidebar(array(
+    'name' => 'Single Post Sidebar',
+    'id' => 'single-post-sidebar',
+    'before_widget' => '<div class="single-post-sidebar">',
+    'after_widget' => '</div>',
+    'before_title' => '<h2>',
+    'after_title' => '</h2>'
+  ));
 
-// if ( function_exists('register_sidebar') ) {
-
-
-
-//    register_sidebar(array(
-
-//        'name' => 'Instagram',
-
-//        'before_widget' => '<div class="instagram-snaps">',
-
-//        'after_widget' => '</div>',
-
-//        'before_title' => '<h1 class="presstitle">',
-
-//        'after_title' => '</h1>'
-
-//     ));
-
-
-
-//     register_sidebar(array(
-
-//        'name' => 'Single Post Sidebar',
-
-//        'before_widget' => '<div class="single-post-sidebar">',
-
-//        'after_widget' => '</div>',
-
-//        'before_title' => '<h2>',
-
-//        'after_title' => '</h2>'
-
-//     ));
-//     register_sidebar( array(
-//         'name' => 'Google Widget',
-//         'id' => 'google-review-sidebar',
-//         'description' => 'Appears in the footer area',
-//         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-//         'after_widget' => '</aside>',
-//         'before_title' => '<h3 class="widget-title">',
-//         'after_title' => '</h3>',
-//         ) );
-
-
-
-// }
+  register_sidebar( array(
+    'name' => 'Google Widget',
+    'id' => 'google-review-sidebar',
+    'description' => 'Appears in the footer area',
+    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+    'after_widget' => '</aside>',
+    'before_title' => '<h3 class="widget-title">',
+    'after_title' => '</h3>',
+  ));
+}
 
 
 
